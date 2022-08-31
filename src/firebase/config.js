@@ -2,6 +2,7 @@
 import firebase from "firebase";
 import 'firebase/auth'
 import 'firebase/firebase'
+import 'firebase/storage'
 
 /* b2 copy the firebaseConfig from project settings */
 const firebaseConfig = {
@@ -14,5 +15,5 @@ const firebaseConfig = {
     measurementId: "G-7Y0G2DZE7Q"
   };
 
-  /* b3 export it :store/firebaseContext.js */
+  /* b3 export it :store/Context.js */
   export default firebase.initializeApp(firebaseConfig)

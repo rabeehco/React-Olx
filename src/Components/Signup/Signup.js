@@ -3,7 +3,7 @@ import React, { useState, useContext } from 'react';
 /*a1 It's for redirecting to another page */
 import { useHistory } from 'react-router-dom';
 import Logo from '../../olx-logo.png';
-import { FirebaseContext } from '../../store/FirebaseContext';
+import { FirebaseContext } from '../../store/Context';
 import './Signup.css';
 
 export default function Signup() {
